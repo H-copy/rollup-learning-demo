@@ -1,0 +1,22 @@
+{
+  "name": "demo-1-base",
+  "description": "copy-left",
+  "version": "1.0.0",
+  "main": "lib/index.umd.js",
+  "type": "module",
+  "scripts": {
+    "build:rollup": "rm -fr lib/ && rollup -c",
+    "build:babel": "rm -fr lib/ && npx babel src --out-dir lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup": "^2.52.2"
+  }
+}

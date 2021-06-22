@@ -1,0 +1,18 @@
+{
+  
+  "name": "demo-1-base",
+  "description": "copy-left",
+  "version": "1.0.0",
+  "main": "lib/index.umd.js",
+  "type": "module",
+  "dependencies": {},
+  "scripts": {
+    "build": "rm -fr lib/ && rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.52.2"
+  }
+}
