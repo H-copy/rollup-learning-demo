@@ -4,7 +4,7 @@ import pluginCommonjs from '@rollup/plugin-commonjs'
 import pluginEslint from '@rollup/plugin-eslint'
 import pluginTypescript2 from 'rollup-plugin-typescript2'
 import pluginTerser from 'rollup-plugin-terser'
-
+  
 const cjs = {
   input: 'src/index.ts',
   output: {
