@@ -1,6 +1,6 @@
 {
   
-  "name": "demo-1-base",
+  "name": "demo-2-multiple-output",
   "description": "copy-left",
   "version": "1.0.0",
   "main": "lib/index.umd.js",
